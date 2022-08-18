@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Articles = () => {
   return (
@@ -7,12 +8,12 @@ const Articles = () => {
       <div className="hidden lg:block">
         <div className="absolute right-20 xl:right-28 2xl:right-60 3xl:right-96">
           <div className="mb-10 flex items-center">
-            <img src="location.svg" width={18} alt="" />
+            <Image src="/location.svg" width={18} height={18} alt="" />
             <span className="ml-2 mr-20">Noida, India</span>
-            <img src="pencil.svg" alt="" />
+            <Image src="/pencil.svg" width={16} height={16} alt="" />
           </div>
           <div className="flex">
-            <img src="info.svg" alt="" />
+            <Image src="/info.svg" alt="" width={16} height={16} />
             <p className="ml-2 w-52 text-xs text-gray-700">
               Your location will help us serve better and extend a personalised
               experience.
@@ -20,32 +21,32 @@ const Articles = () => {
           </div>
           <div>
             <div className="mt-10 mb-5 flex">
-              <img src="thumpsup.svg" alt="" />
+              <Image src="/thumpsup.svg" alt="" width={18} height={18} />
               <p className="ml-2 text-sm">RECOMMENDED GROUPS</p>
             </div>
             <div className="mb-5 flex items-center text-sm">
-              <img src="leisure.svg" alt="" />
+              <Image src="/leisure.svg" alt="" width={35} height={35} />
               <span className="ml-2">Leisure</span>
               <button className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2">
                 Follow
               </button>
             </div>
             <div className="mb-5 flex items-center text-sm">
-              <img src="activism.svg" alt="" />
+              <Image src="/activism.svg" alt="" width={35} height={35} />
               <span className="ml-2">Activism</span>
               <button className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2">
                 Follow
               </button>
             </div>
             <div className="mb-5 flex items-center text-sm">
-              <img src="MBA.svg" alt="" />
+              <Image src="/MBA.svg" alt="" width={35} height={35} />
               <span className="ml-2">MBA</span>
               <button className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2">
                 Follow
               </button>
             </div>
             <div className="mb-12 flex items-center text-sm">
-              <img src="philosophy.svg" alt="" />
+              <Image src="/philosophy.svg" alt="" width={35} height={35} />
               <span className="ml-2">Philosophy</span>
               <button className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2">
                 Follow
@@ -76,7 +77,7 @@ const Articles = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div>
-                <img src="sarthak.svg" alt="" width={45} />
+                <Image src="/sarthak.svg" alt="" width={45} height={45} />
               </div>
               <div className="flex flex-col">
                 <span className="font-medium">Sarthak Kamra</span>
@@ -95,7 +96,7 @@ const Articles = () => {
       {/* <div className="bg-[#F1F3F5] w-full h-2"></div> */}
       <article className="py-4 shadow-lg">
         <div>
-          <img src="article-2.svg" width="100%" alt="" />
+          <img src="article-2.jpg" width="100%" alt="" />
         </div>
         <div className="px-4">
           {/* <p className="py-2">Article</p> */}
@@ -114,7 +115,7 @@ const Articles = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div>
-                <img src="sarah.svg" alt="" width={45} />
+                <Image src="/sarah.svg" alt="" width={45} height={45} />
               </div>
               <div className="flex flex-col">
                 <span className="font-medium">Sarah West</span>
@@ -132,7 +133,7 @@ const Articles = () => {
       </article>
       <article className="py-4 shadow-lg">
         <div>
-          <img src="article-3.svg" width="100%" alt="" />
+          <img src="/article-3.jpg" width="100%" alt="" />
         </div>
         <div className="px-4">
           <p className="py-2">🗓️ Meetup</p>
@@ -160,7 +161,7 @@ const Articles = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div>
-                <img src="ronal.svg" alt="" width={45} />
+                <Image src="/ronal.svg" alt="" width={45} height={45} />
               </div>
               <div className="flex flex-col">
                 <span className="font-medium">Ronal Jones</span>
@@ -207,7 +208,7 @@ const Articles = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div>
-                <img src="joseph.svg" alt="" width={45} />
+                <Image src="/joseph.svg" alt="" width={45} height={45} />
               </div>
               <div className="flex flex-col">
                 <span className="font-medium">Joseph Gray</span>
