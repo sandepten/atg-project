@@ -25,28 +25,28 @@ const Articles = () => {
               <p className="ml-2 text-sm">RECOMMENDED GROUPS</p>
             </div>
             <div className="mb-5 flex items-center text-sm">
-              <Image src="/leisure.svg" alt="" width={35} height={35} />
+              <Image src="/leisure.jpg" alt="" width={35} height={35} />
               <span className="ml-2">Leisure</span>
               <button className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2">
                 Follow
               </button>
             </div>
             <div className="mb-5 flex items-center text-sm">
-              <Image src="/activism.svg" alt="" width={35} height={35} />
+              <Image src="/activism.jpg" alt="" width={35} height={35} />
               <span className="ml-2">Activism</span>
               <button className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2">
                 Follow
               </button>
             </div>
             <div className="mb-5 flex items-center text-sm">
-              <Image src="/MBA.svg" alt="" width={35} height={35} />
+              <Image src="/MBA.jpg" alt="" width={35} height={35} />
               <span className="ml-2">MBA</span>
               <button className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2">
                 Follow
               </button>
             </div>
             <div className="mb-12 flex items-center text-sm">
-              <Image src="/philosophy.svg" alt="" width={35} height={35} />
+              <Image src="/philosophy.jpg" alt="" width={35} height={35} />
               <span className="ml-2">Philosophy</span>
               <button className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2">
                 Follow
@@ -77,7 +77,7 @@ const Articles = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div>
-                <Image src="/sarthak.svg" alt="" width={45} height={45} />
+                <Image src="/sarthak.jpg" alt="" width={45} height={45} />
               </div>
               <div className="flex flex-col">
                 <span className="font-medium">Sarthak Kamra</span>
@@ -115,7 +115,7 @@ const Articles = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div>
-                <Image src="/sarah.svg" alt="" width={45} height={45} />
+                <Image src="/sarah.jpg" alt="" width={45} height={45} />
               </div>
               <div className="flex flex-col">
                 <span className="font-medium">Sarah West</span>
@@ -161,7 +161,7 @@ const Articles = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div>
-                <Image src="/ronal.svg" alt="" width={45} height={45} />
+                <Image src="/ronal.jpg" alt="" width={45} height={45} />
               </div>
               <div className="flex flex-col">
                 <span className="font-medium">Ronal Jones</span>
@@ -208,7 +208,7 @@ const Articles = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div>
-                <Image src="/joseph.svg" alt="" width={45} height={45} />
+                <Image src="/joseph.jpg" alt="" width={45} height={45} />
               </div>
               <div className="flex flex-col">
                 <span className="font-medium">Joseph Gray</span>
