@@ -1,7 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import { useState } from "react";
 
 const Articles = () => {
+  const [follow1, setFollow1] = useState(false);
+  const [follow2, setFollow2] = useState(false);
+  const [follow3, setFollow3] = useState(false);
+  const [follow4, setFollow4] = useState(false);
   return (
     <div className="m-auto max-w-3xl lg:ml-20 lg:mt-5 lg:w-7/12 xl:ml-28 xl:w-3/5 2xl:ml-60 3xl:ml-96">
       {/* This is the sidebar */}
@@ -27,30 +32,94 @@ const Articles = () => {
             <div className="mb-5 flex items-center text-sm">
               <Image src="/leisure.jpg" alt="" width={35} height={35} />
               <span className="ml-2">Leisure</span>
-              <button className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2">
-                Follow
-              </button>
+              {follow1 ? (
+                <button
+                  onClick={() => {
+                    setFollow1(false);
+                  }}
+                  className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2"
+                >
+                  Following
+                </button>
+              ) : (
+                <button
+                  onClick={() => {
+                    setFollow1(true);
+                  }}
+                  className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2"
+                >
+                  Follow
+                </button>
+              )}
             </div>
             <div className="mb-5 flex items-center text-sm">
               <Image src="/activism.jpg" alt="" width={35} height={35} />
               <span className="ml-2">Activism</span>
-              <button className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2">
-                Follow
-              </button>
+              {follow2 ? (
+                <button
+                  onClick={() => {
+                    setFollow2(false);
+                  }}
+                  className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2"
+                >
+                  Following
+                </button>
+              ) : (
+                <button
+                  onClick={() => {
+                    setFollow2(true);
+                  }}
+                  className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2"
+                >
+                  Follow
+                </button>
+              )}
             </div>
             <div className="mb-5 flex items-center text-sm">
               <Image src="/MBA.jpg" alt="" width={35} height={35} />
               <span className="ml-2">MBA</span>
-              <button className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2">
-                Follow
-              </button>
+              {follow3 ? (
+                <button
+                  onClick={() => {
+                    setFollow3(false);
+                  }}
+                  className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2"
+                >
+                  Following
+                </button>
+              ) : (
+                <button
+                  onClick={() => {
+                    setFollow3(true);
+                  }}
+                  className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2"
+                >
+                  Follow
+                </button>
+              )}
             </div>
             <div className="mb-12 flex items-center text-sm">
               <Image src="/philosophy.jpg" alt="" width={35} height={35} />
               <span className="ml-2">Philosophy</span>
-              <button className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2">
-                Follow
-              </button>
+              {follow4 ? (
+                <button
+                  onClick={() => {
+                    setFollow4(false);
+                  }}
+                  className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2"
+                >
+                  Following
+                </button>
+              ) : (
+                <button
+                  onClick={() => {
+                    setFollow4(true);
+                  }}
+                  className="absolute right-0 rounded-2xl bg-[#EDEEF0] py-1 px-2"
+                >
+                  Follow
+                </button>
+              )}
             </div>
             <p className="absolute right-0 text-xs text-[#2F6CE5]">
               See More...

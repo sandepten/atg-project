@@ -29,7 +29,7 @@ const Signin = () => {
             <img
               src="x-icon-white.svg"
               alt=""
-              className="absolute -top-10 right-0 hidden xl:block"
+              className="absolute -top-10 right-0 hidden cursor-pointer xl:block"
               width={25}
               onClick={() => {
                 setauthOn(false);
@@ -82,11 +82,11 @@ const Signin = () => {
                 </span>
               </div>
             </form>
-            <div className="mb-4 flex items-center justify-center space-x-3 border py-2">
+            <div className="mb-4 flex cursor-pointer items-center justify-center space-x-3 border py-2">
               <img src="facebook-logo.svg" alt="" width={20} />
               <p>Sign in with Facebook</p>
             </div>
-            <div className="mb-6 flex items-center justify-center space-x-2 border py-2">
+            <div className="mb-6 flex cursor-pointer items-center justify-center space-x-2 border py-2">
               <img src="google-logo.svg" alt="" width={30} />
               <p>Sign in with Google</p>
             </div>
