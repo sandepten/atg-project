@@ -21,9 +21,12 @@ export default function Home() {
       </Head>
       <Banner />
       {authOn ? (
-        <div className="absolute bottom-0 z-10 h-3/4 w-full bg-white lg:fixed lg:top-1/2 lg:left-1/2 lg:w-3/4 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:transform">
+        <div className="absolute bottom-0 z-10 h-3/4 w-full bg-white lg:fixed lg:top-1/2 lg:left-1/2 lg:w-3/4 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:transform lg:rounded-xl xl:h-3/5 xl:w-2/3 2xl:w-1/2">
           {sign ? <Createaccount /> : <Signin />}
         </div>
+      ) : null}
+      {authOn ? (
+        <div className="absolute z-[5] h-full w-full backdrop-brightness-50"></div>
       ) : null}
       <div className="mx-4 my-3 flex items-center justify-between md:mx-auto md:max-w-3xl lg:hidden">
         <span className="text-lg font-bold">Posts(368)</span>

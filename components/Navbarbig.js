@@ -5,7 +5,7 @@ import { authState } from "../atoms/signAtom";
 const Navbarbig = () => {
   const [authOn, setauthOn] = useRecoilState(authState);
   return (
-    <div>
+    <div className="border-b-2">
       <div className="mx-10 flex items-center justify-between py-4">
         <div className="text-2xl">
           <span className="text-[#27A365]">ATG</span>

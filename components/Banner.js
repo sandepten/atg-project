@@ -32,7 +32,7 @@ const Banner = () => {
             Join Group
           </button>
         </div>
-        <div className="absolute bottom-8 left-4 text-white md:left-14 lg:left-20 lg:bottom-16 xl:left-28 2xl:left-60">
+        <div className="absolute bottom-8 left-4 text-white md:left-14 lg:left-20 lg:bottom-16 xl:left-28 2xl:left-60 3xl:left-96">
           <p className="text-xl font-bold md:text-2xl lg:text-4xl xl:mb-3 xl:text-5xl">
             Computer Engineering
           </p>

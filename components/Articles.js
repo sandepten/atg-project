@@ -2,10 +2,10 @@ import React from "react";
 
 const Articles = () => {
   return (
-    <div className="m-auto max-w-3xl lg:ml-20 lg:mt-5 lg:w-7/12 xl:ml-28 xl:w-3/5 2xl:ml-60">
+    <div className="m-auto max-w-3xl lg:ml-20 lg:mt-5 lg:w-7/12 xl:ml-28 xl:w-3/5 2xl:ml-60 3xl:ml-96">
       {/* This is the sidebar */}
       <div className="hidden lg:block">
-        <div className="absolute right-20 xl:right-28 2xl:right-60">
+        <div className="absolute right-20 xl:right-28 2xl:right-60 3xl:right-96">
           <div className="mb-10 flex items-center">
             <img src="location.svg" width={18} alt="" />
             <span className="ml-2 mr-20">Noida, India</span>
